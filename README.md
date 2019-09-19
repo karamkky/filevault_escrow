@@ -29,9 +29,9 @@ The recovery key is encrypted before it enters the database and is decrypted aft
 You can specify the ServerURL in the crypt preferences to a special url that will respond in a way that the crypt client stops attempting to Escrow.
 
 ```bash
-$ sudo defaults write /Library/Preferences/com.grahamgilbert.crypt ServerURL "http://munkireportURL/index.php?/module/filevault_escrow/"
+$ sudo defaults write /Library/Preferences/com.grahamgilbert.crypt ServerURL "http://munkireportURL/index.php?/module/filevault_escrow/index/"
 ```
-The client will then checkin at `munkireporturl/index.php?/module/filevault_escrow/checkin`.
+The client will then checkin at `munkireporturl/index.php?/module/filevault_escrow/index/checkin`.
 
 # Dependencies
 
